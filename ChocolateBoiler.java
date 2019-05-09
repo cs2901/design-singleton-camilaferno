@@ -80,6 +80,9 @@ public class Main{
             r2.join();
             r3.join();
         }
+        catch (InterruptedException e) {
+            System.out.println("Interrupted");
+        }
 
     }
 }
